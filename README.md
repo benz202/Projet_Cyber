@@ -1,14 +1,14 @@
 # Projet_Cyber
-Connexion.php
+# Connexion.php
 Le fichier Connexion.php contient le formulaire de connexion utilisateur en HTML, avec des fonctionnalités de vérification côté serveur en PHP. Il établit une connexion à une base de données MySQL pour vérifier les informations d'identification de l'utilisateur.
 
-Inscription.php
+# Inscription.php
 Le fichier Inscription.php contient le formulaire d'inscription utilisateur en HTML, avec des fonctionnalités de vérification côté serveur en PHP.
 
-traitement_connexion.php
+# traitement_connexion.php
 Le fichier traitement_connexion.php gère le traitement des données de connexion.
 
-user.sql
+# user.sql
 Le fichier user.sql est un script SQL contenant la structure de la base de données. Il doit être exécuté avant d'utiliser le code sur phpMyAdmin.
 
 Instructions d'Utilisation - Configuration de la Base de Données
@@ -26,10 +26,10 @@ $password : Le mot de passe de la base de données MySQL (par défaut, vide).
 $dbname : Le nom de la base de données MySQL (dans ce cas, "projet_cyber").
 Assurez-vous que ces informations sont correctes pour que les fichiers PHP puissent se connecter à la base de données avec succès.
 
-Exécution du Projet
+# Exécution du Projet
 Après avoir configuré correctement la base de données et la connexion, placez les fichiers dans un serveur web compatible PHP (comme Apache) et ouvrez-les dans un navigateur web.
 
-Boutons
+# Boutons
 Bouton "Se connecter" : Sur la page connexion.php, le bouton "Se connecter" permet à l'utilisateur de soumettre ses informations d'identification (email et mot de passe) pour se connecter. Les données sont ensuite vérifiées côté serveur en PHP pour authentifier l'utilisateur.
 
 Bouton "Ajouter un compte" : Le bouton "Ajouter un compte" sur la page Connexion.php redirige l'utilisateur vers la page inscription.php, où il peut s'inscrire pour créer un nouveau compte utilisateur.
